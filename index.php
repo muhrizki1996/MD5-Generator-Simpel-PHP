@@ -13,7 +13,7 @@
 <?php
    if(isset($_GET['text'])){
 if($_GET['text'] == "kosong"){
-echo "<h4 style='color:red'>Text Belum Di Masukkan !</h4>";
+echo "<center><h4 style='color:red'>Text Belum Di Masukkan !</h4><center>";
 } }
 ?>
 <form action="generate.php" method="post">
